@@ -4,7 +4,7 @@ export const VaultCardWrapper = styled.div`
   width: 100%;
   margin: 16px;
   margin-bottom: 0;
-  background-color: var(--color-bg-primary);
+  background-color: #8d2b77;
   border-radius: 8px;
 
   .header-container {
@@ -43,15 +43,16 @@ export const VaultCardWrapper = styled.div`
   }
 
   .title {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 16px;
-    color: #a1a1a1;
+    color: #e5e1e1;
+    font-weight:bold;
     margin-bottom: 4px;
   }
 
   .content {
-    color: #fff;
-    font-size: 14px;
+    color:#f9cd74;
+    font-size: 15px;
     line-height: 16px;
 
     img {

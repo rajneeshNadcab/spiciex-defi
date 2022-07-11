@@ -38,7 +38,9 @@ export const SidebarUi: React.FC = () => {
           <Toolbar css={styles.toolbar}>
             {/* <LogoDesktop css={styles.logo} />
             <LogoNoText css={styles.logoClosed} /> */}
-            <img src="./spicex/logo.png" css={styles.logo} alt="logo" />
+            <img src="./spicex/asset.png" css={styles.logo} alt="logo" />
+            <img src="./spicex/circle_logo.png" css={styles.logoClosed} alt="logo" />
+
           </Toolbar>
 
           <List css={styles.list}>
@@ -68,7 +70,8 @@ export const SidebarUi: React.FC = () => {
 
       <div css={styles.mobileMenuBox}>
         <div css={styles.flexRow}>
-          <Icon name="logoMobile" css={styles.mobileLogo} />
+          {/* <Icon name="logoMobile" css={styles.mobileLogo} /> */}
+          <img src="./spicex/circle_logo.png" css={styles.mobileLogo} alt="logo" />
 
           <ConnectButton small fullWidth css={styles.mobileConnectButton} />
 

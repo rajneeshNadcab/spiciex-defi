@@ -18,13 +18,13 @@ export const FONTS = {
 //  main: 'rgba(58, 120, 255, 1)',
 // secondery.main: 'rgba(40, 41, 49, 1)',
 // Secondary.light:'rgba(56, 57, 68, 1)'
-
+/* #47143D  */
 
 export const PALETTE = {
   mode: 'dark',
   background: {
-    default: '#2d0b30',
-    paper: '#47143D ',
+    default: '#46173a',
+    paper: '#69205a',
     black: '#1F2028',
   },
   primary: {
@@ -39,12 +39,12 @@ export const PALETTE = {
   },
   text: {
     primary: 'rgba(255, 255, 255, 1)',
-    secondary: 'rgba(149, 151, 161, 1)',
+    secondary: 'rgb(223 223 225)',
     disabled: 'rgba(161, 161, 161, 1)',
   },
   button: {
     main: 'rgb(92 34 92)',
-    medium: 'rgba(38, 90, 204, 1)',
+    medium: '#a32d8c',
     dark: 'rgba(27, 67, 152, 1)',
   },
   interactive: {
@@ -166,7 +166,7 @@ export default createTheme({
       styleOverrides: {
         root: {
           backgroundImage: 'none',
-          backgroundColor: PALETTE.background.paper,
+          backgroundColor: '#8d2b77',
           borderRadius: SHAPE.borderRadius.large,
           padding: SPACING * 6,
           boxShadow: 'none',

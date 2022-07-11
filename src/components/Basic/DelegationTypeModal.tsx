@@ -62,7 +62,7 @@ const ModalContent = styled.div`
       padding: 12px 26px 0 42px;
     }
     .active-delegate {
-      color: var(--color-dark-green);
+      color: #fff;
     }
   }
 

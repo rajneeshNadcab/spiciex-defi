@@ -13,112 +13,189 @@
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
     -->
-    <link rel="icon" type="image/png" sizes="16x16" href="https://venus.io/favicon-16x16.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="https://venus.io/favicon-32x32.png" />
-    <meta name="title" content="Venus Protocol" />
+    <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/spicex/favicon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/spicex/favicon.png" />
+    <meta name="title" content="Speciex Protocol" />
     <meta
       name="description"
-      content="Venus is a decentralized finance (DeFi) algorithmic money market protocol on BNB Chain."
+      content="Speciex is a decentralized finance (DeFi) algorithmic money market protocol on BNB Chain."
     />
     <meta
       name="keywords"
-      content="venus, venus protocol, defi, borrow, lend, crypto, blockchain, bsc, bnb, bnb chain, decentralized finance"
+      content="Speciex, Speciex protocol, defi, borrow, lend, crypto, blockchain, bsc, bnb, bnb chain, decentralized finance"
     />
-    <link rel="canonical" href="https://venus.io" />
+    <link rel="canonical" href="https://speciex.io" />
 
     <!-- Google site verification -->
     <meta name="google-site-verification" content="lYDzVz0SnYTgGwn7I3ocRDO5-Yhtk9lFujCFJUljqOo" />
     <meta name="google-site-verification" content="YjfX8FfaC3MEVi6nAG6ApFJJlZwtz1nNOjGBKRgaVyE" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Venus Protocol" />
-    <meta property="og:site_name" content="Venus Protocol" />
+    <meta property="og:title" content="Speciex Protocol" />
+    <meta property="og:site_name" content="Speciex Protocol" />
     <meta property="og:url" content="https://venus.io" />
     <meta property="og:image" content="https://venus.io/share.png" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta
       property="og:description"
-      content="Venus is a decentralized finance (DeFi) algorithmic money market protocol on BNB Chain."
+      content="Speciex is a decentralized finance (DeFi) algorithmic money market protocol on BNB Chain."
     />
     <style>
-      .css-wun8me-Button:hover{
-    background-color: rgb(13 22 102) !important;
-   
-}
-.card-item{
-  background-color: #2d0b30 !important;
-}
-.css-kpj5mn-Button{
-  border-color: #B99750 !important
-}
-.css-17i3ghe-MuiTypography-root {
-  
-    color: #fff !important;
-}
-.css-6owvi3-MuiSwitch-root-MyAccountUi .MuiSwitch-switchBase.Mui-checked .MuiSwitch-thumb {
-    background-color: #2d0b30 !important;
-}
+      .card-item {
+        background-color: #4e0a54 !important;
+      }
+      .css-kpj5mn-Button {
+        border-color: #b99750 !important;
+      }
+      .css-17i3ghe-MuiTypography-root {
+        color: #fff !important;
+      }
+      .css-65az9y-MuiSwitch-root-MyAccountUi .MuiSwitch-switchBase.Mui-checked .MuiSwitch-thumb {
+        background-color: #fff !important;
+      }
 
-.css-1yuml3y-MuiTypography-root-Table {
-  color:#B99750 !important
-}
-.css-90sdvk-Button{
-  border-color:transparent !important;
-} 
+      .css-65az9y-MuiSwitch-root-MyAccountUi .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track {
+        background-color: #541444 !important;
+      }
 
+      .css-10qtkud-MuiTypography-root-TableCards,
+      .css-fzok4-MuiTypography-root-Table {
+        color: rgb(223 199 223) !important;
+        font-size: 15px !important;
+      }
+      .css-90sdvk-Button {
+        border-color: transparent !important;
+      }
+      .css-10loym3-Button {
+        border-color: rgb(149 68 133) !important;
+      }
+      .eiexUv {
+        background-color: #8d2b77 !important;
+      }
+      .css-1n5q1sc-MuiPaper-root-HeaderUi {
+        background-color: #8d2b77 !important;
+      }
+      .css-iq99s1-Button {
+        background-color: rgb(185 62 185 / 63%) !important;
+        border-color: rgb(173 34 173) !important;
+      }
+      .css-157jbjj-MuiPaper-root-Prompt {
+        background-color: #69205a !important;
+        border-color: #a35193 !important;
+      }
+      .css-1o3dpca-MuiTypography-root-MyAccountUi,
+      .css-1tyvy44-MuiTypography-root-MyAccountUi,
+      .css-q9uv7d-MuiTypography-root-HeaderUi {
+        font-size: 15px !important;
+        font-weight: 800 !important;
+        color: rgb(223 223 225) !important;
+      }
+      .css-jqggzi-MuiPaper-root-MuiDrawer-paper {
+        background-color: #69205a;
+      }
+      .dLIXUx button:disabled {
+        background-color: #69205a !important;
+        border-color: #a32d8c;
+      }
+      .css-1y813r0-MuiTypography-root-LabeledProgressBar,
+      .css-z2810n-MuiTypography-root-MyAccountUi {
+        font-size: 15px !important;
+      }
+      .css-13qel3z-MuiTypography-root {
+        color: #f9cd74 !important;
+      }
+      .css-10wx7jp-MuiButtonBase-root-MuiTableSortLabel-root-Head.MuiTableSortLabel-root span,
+      .css-16xf30l-MuiButtonBase-root-MuiTableSortLabel-root-Head.MuiTableSortLabel-root span,
+      .css-x7ynbk-MuiTypography-root-TableCards {
+        font-size: 15px !important;
+        font-weight: 700 !important;
+      }
+      .css-10qtkud-MuiTypography-root-TableCards,
+      .css-uhvb52-MuiTypography-root {
+        font-size: 16px !important;
+      }
+      .css-139apct-MuiSwitch-root-Toggle .MuiSwitch-thumb {
+        background-color: #f9cd74 !important;
+      }
+      .css-mm6b9i-MuiTypography-root-HeaderUi {
+        color: #f9cd74 !important;
+      }
+      .css-2rfqkl-MuiTable-root-Table .MuiTableCell-root {
+        font-size: 15px !important;
+      }
     </style>
     <!-- Twitter -->
-    <meta name="twitter:title" content="Venus Protocol" />
+    <meta name="twitter:title" content="Speciex Protocol" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Venus Protocol" />
+    <meta name="twitter:title" content="Speciex Protocol" />
     <meta
       name="twitter:description"
-      content="Venus is a decentralized finance (DeFi) algorithmic money market protocol on BNB Chain."
+      content="Speciex is a decentralized finance (DeFi) algorithmic money market protocol on BNB Chain."
     />
     <meta name="twitter:image" content="https://venus.io/share.png" />
     <meta name="twitter:site" content="@venusprotocol" />
     <meta name="twitter:creator" content="@venusprotocol" />
 
     <!-- Apple mobile -->
-    <meta name="apple-mobile-web-app-title" content="Venus Protocol" />
-    <link rel="apple-touch-icon" type="image/png" href="https://venus.io/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" type="image/png" sizes="57x57" href="https://venus.io/57x57.png" />
-    <link rel="apple-touch-icon" type="image/png" sizes="60x60" href="https://venus.io/60x60.png" />
-    <link rel="apple-touch-icon" type="image/png" sizes="72x72" href="https://venus.io/72x72.png" />
-    <link rel="apple-touch-icon" type="image/png" sizes="76x76" href="https://venus.io/76x76.png" />
+    <meta name="apple-mobile-web-app-title" content="Speciex Protocol" />
+    <link rel="apple-touch-icon" type="image/png" href="%PUBLIC_URL%/spicex/favicon.png" />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="57x57"
+      href="%PUBLIC_URL%/spicex/favicon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="60x60"
+      href="%PUBLIC_URL%/spicex/favicon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="72x72"
+      href="%PUBLIC_URL%/spicex/favicon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="76x76"
+      href="%PUBLIC_URL%/spicex/favicon.png"
+    />
     <link
       rel="apple-touch-icon"
       type="image/png"
       sizes="114x114"
-      href="https://venus.io/114x114.png"
+      href="%PUBLIC_URL%/spicex/favicon.png"
     />
     <link
       rel="apple-touch-icon"
       type="image/png"
       sizes="120x120"
-      href="https://venus.io/120x120.png"
+      href="%PUBLIC_URL%/spicex/favicon.png"
     />
     <link
       rel="apple-touch-icon"
       type="image/png"
       sizes="144x144"
-      href="https://venus.io/144x144.png"
+      href="%PUBLIC_URL%/spicex/favicon.png"
     />
     <link
       rel="apple-touch-icon"
       type="image/png"
       sizes="152x152"
-      href="https://venus.io/152x152.png"
+      href="%PUBLIC_URL%/spicex/favicon.png"
     />
     <link
       rel="apple-touch-icon"
       type="image/png"
       sizes="180x180"
-      href="https://venus.io/180x180.png"
+      href="%PUBLIC_URL%/spicex/favicon.png"
     />
 
-    <title>Spiciex Protocol</title>
+    <title>Speciex Protocol</title>
   </head>
   <body>
     <noscript>
@@ -151,5 +228,4 @@
 
     gtag('config', '%REACT_APP_GOOGLE_ANALYTICS_ID%');
   </script>
-
 </html>

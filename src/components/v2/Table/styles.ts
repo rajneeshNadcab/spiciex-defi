@@ -67,7 +67,7 @@ export const useStyles = () => {
       padding-top: ${theme.spacing(2)};
       overflow: hidden;
       text-overflow: ellipsis;
-      font-weight: 400;
+      font-weight: 460;
     `,
     loader: css`
       margin-bottom: ${theme.spacing(6)};

@@ -95,7 +95,7 @@ export const useStyles = () => {
       }
 
       .active-menu-item {
-        background-color:#2d0b30;
+        background-color:#3f0944;
        
 
         .left-border {
@@ -141,13 +141,14 @@ export const useStyles = () => {
       ${theme.breakpoints.down('lg')} {
         display: none;
       }
-      height: 33px;
+      height: 42px;
       ${theme.breakpoints.down('sm')} {
         display: none;
       }
     `,
     logoClosed: css`
       display: none;
+      height: 42px;
       ${theme.breakpoints.down('lg')} {
         display: block;
       }

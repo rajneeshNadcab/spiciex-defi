@@ -73,6 +73,7 @@ export const MyAccountUi = ({
             color="text.primary"
             variant="small1"
             component="span"
+            fontWeight="bold"
             css={styles.apyWithXvsLabel}
           >
             {t('myAccount.apyWithXvs')}

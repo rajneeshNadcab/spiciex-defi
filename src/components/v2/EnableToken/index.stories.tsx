@@ -13,7 +13,7 @@ export default {
 
 export const Disabled = () => (
   <EnableTokenUi
-    title="To withdraw BNB to the Venus Protocol, you need to enable it first."
+    title="To withdraw BNB to Speciex Protocol, you need to enable it first."
     vTokenId="eth"
     isTokenEnabled={false}
     enableToken={noop}
@@ -24,7 +24,7 @@ export const Disabled = () => (
 
 export const DisabledWithTokenInfo = () => (
   <EnableTokenUi
-    title="To withdraw BNB to the Venus Protocol, you need to enable it first."
+    title="To withdraw BNB to the Speciex Protocol, you need to enable it first."
     vTokenId="eth"
     isTokenEnabled={false}
     tokenInfo={[
